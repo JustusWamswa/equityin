@@ -9,8 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "@next-auth/mongodb-adapter": "^1.1.1",
     "autoprefixer": "10.4.14",
+    "framer-motion": "^10.11.2",
+    "mongodb": "^4.15.0",
     "next": "13.3.0",
+    "next-auth": "^4.22.0",
+    "next-themes": "^0.2.1",
     "postcss": "8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
