@@ -1,15 +1,31 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Live Link
+https://equityin.vercel.app
+
+## Technologies
+
+Next.js https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/nextjs-logo.png
+Node.js https://litslink.com/wp-content/uploads/2020/12/node.js-logo-image.png
+Tailwing CSS https://jefrydco.id/_nuxt/img/how-tailwind-css-help-reduce-workload-by-jefrydco.833f9b8.jpg
+MongoDB https://res.cloudinary.com/hevo/image/upload/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif
+
 ## Getting Started
 
-First, run the development server:
+Install node on your machine
+
+
+Run the development server:
 
 ```bash
+run git clone https://github.com/JustusWamswa/equityin.git
+
+run npm install to get all the dependencies
+
+create a '.env.local' file and enter your credentials following the example from '.env_example'
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
