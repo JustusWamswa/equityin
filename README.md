@@ -6,13 +6,13 @@ https://equityin.vercel.app
 
 ## Technologies
 
-Next.js <img src="https://decodenatura.com/static/fb8aa1bb70c9925ce1ae22dc2711b343/nextjs-logo.png" width="30">
+Next.js
 
-Node.js <img src="https://litslink.com/wp-content/uploads/2020/12/node.js-logo-image.png" width="30">
+Node.js
 
-Tailwing CSS <img src="https://jefrydco.id/_nuxt/img/how-tailwind-css-help-reduce-workload-by-jefrydco.833f9b8.jpg" width="30">
+Tailwing CSS
 
-MongoDB <img src="https://res.cloudinary.com/hevo/image/upload/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif" width="30">
+MongoDB
 
 
 ## Getting Started
