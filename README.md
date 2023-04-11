@@ -23,13 +23,13 @@ Install node on your machine
 Run the development server:
 
 ```bash
-run git clone https://github.com/JustusWamswa/equityin.git
+run 'git clone https://github.com/JustusWamswa/equityin.git'
 
-run npm install to get all the dependencies
+run 'npm install' to get all the dependencies
 
 create a '.env.local' file and enter your credentials following the example from '.env_example'
 
-npm run dev
+run 'npm run dev'
 
 ```
 
