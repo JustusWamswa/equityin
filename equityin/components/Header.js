@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
 import Logo from "../public/logo.png"
+import LogoLight from "../public/logoLight.png"
 
 const spring = {
   type: "spring",
@@ -35,9 +36,9 @@ function Header() {
         {mounted && (
           <>
             {resolvedTheme === "dark" ? (
-              <Image src={Logo} width={150} height={120} />
+              <Image src={LogoLight} width={150} height={120} />
             ) : (
-              <Image src={Logo} width={150} height={120} />
+              <Image src={Logo} width={130} height={110} />
             )}
           </>
         )}
