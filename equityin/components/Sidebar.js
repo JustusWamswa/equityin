@@ -3,6 +3,7 @@ import Image from "next/image";
 import BookmarkOutlinedIcon from "@mui/icons-material/BookmarkOutlined";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 import { signOut, useSession } from "next-auth/react";
+import Abstract from "../public/abstract.jpg"
 
 function Sidebar() {
   const { data: session } = useSession();
@@ -12,7 +13,7 @@ function Sidebar() {
       {/* Top */}
       <div className="bg-white dark:bg-[#1D2226] rounded-lg overflow-hidden relative flex flex-col items-center text-center border border-gray-300 dark:border-none">
         <div className="relative w-full h-14">
-          <Image src="https://rb.gy/i26zak" layout="fill" priority />
+          <Image src={Abstract} fill priority />
         </div>
         <Avatar
           onClick={signOut}
@@ -20,7 +21,7 @@ function Sidebar() {
           className="!h-14 !w-14 !border-2 !absolute !top-4 !cursor-pointer"
         />
         <div className="mt-5 py-4 space-x-0.5">
-          <h4 className="hover:underline decoration-purple-700 underline-offset-1 cursor-pointer">
+          <h4 className="hover:underline decoration-amber-800/80 dark:decoration-blue-500 underline-offset-1 cursor-pointer">
             {session?.user?.name}
           </h4>
           <p className="text-black/60 dark:text-white/75 text-sm">
@@ -32,11 +33,11 @@ function Sidebar() {
           <div className="font-medium sidebarButton space-y-0.5">
             <div className="flex justify-between space-x-2">
               <h4>Who viewed your profile</h4>
-              <span className="text-blue-500">321</span>
+              <span className="text-amber-800/80 dark:text-blue-500">321</span>
             </div>
             <div className="flex justify-between space-x-2">
               <h4>Views of your post</h4>
-              <span className="text-blue-500">1,892</span>
+              <span className="text-amber-800/80 dark:text-blue-500">1,892</span>
             </div>
           </div>
 
