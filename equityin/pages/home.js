@@ -17,7 +17,7 @@ function Home({ providers }) {
             </Head>
             <header className="flex justify-around items-center py-4">
                 <div className="relative w-36 h-10">
-                    <Image src="https://rb.gy/vtbzlp" layout="fill" objectFit="contain" />  {/* change to EquityIn Logo */}
+                    <Image src="/logo.png" alt="logo" width={500} height={500} /> 
                 </div>
                 <div className="flex items-center sm:divide-x divide-gray-300">
                     <div className="hidden sm:flex space-x-8 pr-4">
@@ -31,7 +31,7 @@ function Home({ providers }) {
                         <div key={provider.name}>
                             <div className="pl-4">
                                 <button
-                                    className="text-blue-700 font-semibold rounded-full border border-blue-700 px-5 py-1.5 transition-all hover:border-2"
+                                    className="text-amber-800/80 font-semibold rounded-full border border-amber-800/80 px-5 py-1.5 transition-all hover:border-2"
                                     onClick={() => signIn(provider.id, { callbackUrl: "/" })}
                                 >
                                     Sign in
@@ -64,7 +64,7 @@ function Home({ providers }) {
                 </div>
 
                 <div className="relative xl:absolute w-80 h-80 xl:w-[650px] xl:h-[650px] top-14 right-5">
-                    <Image src="https://rb.gy/vkzpzt" layout="fill" priority />
+                    <Image src="/woman.png" alt="African woman" width={300} height={300} priority />
                 </div>
             </main>
         </div>

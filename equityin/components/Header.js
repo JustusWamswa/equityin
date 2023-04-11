@@ -11,6 +11,7 @@ import { Avatar } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
+import Logo from "../public/logo.png"
 
 const spring = {
   type: "spring",
@@ -34,9 +35,9 @@ function Header() {
         {mounted && (
           <>
             {resolvedTheme === "dark" ? (
-              <Image src="https://rb.gy/bizvqj" width={45} height={45} />
+              <Image src={Logo} width={150} height={120} />
             ) : (
-              <Image src="https://rb.gy/dpmd9s" width={55} height={55} />
+              <Image src={Logo} width={150} height={120} />
             )}
           </>
         )}
